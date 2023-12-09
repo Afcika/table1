@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+table{
+    width: 40%;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.red th{
+    border: 1px solid rgba(300, 0, 0, 0.3);;
+}
+td,th{
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.black{
+    background-color: rgb(41, 40, 40);
+    color: white;
+}
+
+button{
+    color: white;
+    border: 1px  none;
+    padding: 10px 20px 10px;
+}
+.grey{
+    background-color: rgb(80, 79, 79);
+    color: white;
+}
+.red :nth-child(1){
+    background-color: rgba(300, 0, 0, 0.3);
+}
+.red :nth-child(2){
+    background-color: rgba(300, 0, 0, 0.6);
+}
+.red :nth-child(3) {
+    background-color: rgba(300, 0, 0, 0.8);
+}
+
+.one{
+    background-color: rgba(300, 0, 0, 0.3);
+}
+.oner{
+    background-color: rgba(300, 0, 0, 0.6);
+}
+.onest{
+    background-color: rgba(300, 0, 0, 0.8);
+}
+
+
+
